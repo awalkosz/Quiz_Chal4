@@ -9,5 +9,5 @@ clear.addEventListener("click", function() {
 
 
 back.addEventListener("click", function() {
-    document.location.replace("./quiz.html");
+    document.location.replace("./index.html");
 });
