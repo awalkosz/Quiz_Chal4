@@ -10,13 +10,27 @@
 <body>
     <nav><a href="highscore.html">View Highscores</a></nav>
         <div id="Block"> 
-            <div id="Timer"> </div>
-            <article id="QuizContent"> 
+            <div id="Timer" class="hide">Time left: </div>
+            <article name= "start" id="Quiz" class="shown"> 
                 <h1>Quiz Questions</h1>
                 <p>Answer the questions within the time allotted. Incorrect answers deduct time by 10 seconds.</p>
-                <ul id="MultipleChoice"></ul>
                 <button id="Start">Start</button>
             </article>
+        
+
+            <div id="Questions" class="hide">
+                <div id="question">
+                <h2 id="questionnum"></h2>
+                <h2 id="text"></h2>
+                </div>
+      
+                <div id="answers" class="hide">
+                <button class="answeroptions" id="answer1"></button>
+                <button class="answeroptions" id="answer2"></button>
+                <button class="answeroptions" id="answer3"></button>
+                <button class="answeroptions" id="answer4"></button>
+                </div>
+         </div>
         </div>
 
     <script src="quiz.js"></script>
